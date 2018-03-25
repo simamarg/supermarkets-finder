@@ -1,0 +1,9 @@
+<div class="results">
+    <h6>{{bestChain.length ? bestChain + " has the best distribution in your area." : 
+      "Sorry, no chains were found in your proximity (50km radius) :("}} </h6>
+    <h6>Closest supermarkets:</h6>
+    <div *ngFor="let branch of displayedBranches">
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      {{branch.name}} - <b>{{branch.distance}}</b> km away
+    </div>
+  </div>

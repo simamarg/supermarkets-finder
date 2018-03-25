@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Welcome to {{title}}</h1>
+  <h5>Please type your location below and click "Send" to see the nearest supermarkets.</h5>
+
+  <div class="input-group justify-content-between">
+    <input placeholder="Search for location..." autocorrect="off" autocapitalize="off" spellcheck="off" type="text"
+      class="form-control col-10" #search [(ngModel)]="searchControl">
+    <button type="button" class="btn btn-secondary col-2" (click)="displaySupermarkets()">Send</button>
+  </div>
+  
+  <results *ngIf="displayedBranches.length" [displayedBranches]="displayedBranches"></results>
+
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+</div>

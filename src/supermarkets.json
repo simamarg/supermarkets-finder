@@ -1,0 +1,87 @@
+[
+  {
+    "chain": "Shufersal",
+    "branches": [
+      {
+        "name": "Shufersal Deal Bnei Brak",
+        "lat": 32.103007,
+        "lng": 34.835890
+      },
+      {
+        "name": "Shufersal Sheli Ramat Hasharon",
+        "lat": 32.138422,
+        "lng": 34.841400
+      },
+      {
+        "name": "Shufersal Express Hertsliya",
+        "lat": 32.172434,
+        "lng": 34.840836
+      },
+      {
+        "name": "Shufersal Sheli Ibn Gabirol Tel Aviv",
+        "lat": 32.086967,
+        "lng": 34.782323
+      }
+    ]
+  },
+  {
+    "chain": "Mega",
+    "branches": [
+      {
+        "name": "Mega In The City Giv'atayim",
+        "lat": 32.077849,
+        "lng": 34.818985
+      },
+      {
+        "name": "Mega in the City Hertsliya",
+        "lat": 32.154613,
+        "lng": 34.841721
+      },
+      {
+        "name": "Mega Laser Tel Aviv",
+        "lat": 32.081827,
+        "lng": 34.785484
+      }
+    ]
+  },
+  {
+    "chain": "Rami Levy",
+    "branches": [
+      {
+        "name": "Rami Levy Dvora HaNevi'a Tel Aviv",
+        "lat": 32.113787,
+        "lng": 34.842275
+      },
+      {
+        "name": "Rami Levy Petah Tikva",
+        "lat": 32.089072,
+        "lng": 34.856732
+      },
+      {
+        "name": "Rami Levy Holon",
+        "lat": 32.024167,
+        "lng": 34.797662
+      }
+    ]
+  },
+  {
+    "chain": "Osher Ad",
+    "branches": [
+      {
+        "name": "Osher Ad Petah Tikva",
+        "lat": 32.106141,
+        "lng": 34.892432
+      },
+      {
+        "name": "Osher Ad Bnei Brak",
+        "lat": 32.099940,
+        "lng": 34.830256
+      },
+      {
+        "name": "Osher Ad Tel Aviv",
+        "lat": 32.067703,
+        "lng": 34.794428
+      }
+    ]
+  }
+]
